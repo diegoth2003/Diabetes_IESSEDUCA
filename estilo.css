@@ -1,0 +1,390 @@
+/* Generales */
+
+* {
+
+margin:0;
+padding: 0;
+box-sizing: border-box; 
+font-size: 12px;
+font-family: 'Roboto', sans-serif;
+
+}
+
+:root {
+--celeste:#009fe5;
+--azul:#0073a5;
+--gris:#353535;
+}
+
+h1 {
+
+color: white;
+
+}
+
+
+/* Encabezado */
+.encabezado {
+	width: 100%;
+	height: 65px;
+	background-color: var(--azul);
+	position: fixed;
+	z-index: 99;
+}
+
+
+.logo {
+width: 15%;
+margin:5px;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: .5s;
+
+}
+
+.logo:hover{background-color: var(--gris);}
+
+.barra {
+
+	width: 100%;
+	height: 10px;
+	background-color: var(--celeste);
+	position: absolute;
+	display: flex;
+
+}
+
+/* INDEX */
+
+.bloque-ind1 {
+
+padding-top: 65px;
+width: 100vw;
+
+/* FONDO DEGRADADO*/
+background: #e9001a; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  #e9001a 0%, #94000c 77%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  #e9001a 0%,#94000c 77%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at cvwenter,  #e9001a 0%,#94000c 77%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9001a', endColorstr='#94000c',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+height: auto;
+}
+
+.brillos{ 
+
+width: 100vw; 
+height:auto; 
+background-image: url("images/brillos.png"); 
+background-repeat:repeat-x;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.caja3 {
+width: 100% ; 
+margin-top: -33px; 
+align-items: center; 
+justify-content: center;
+display: flex;}
+
+.bloque-ind2 {
+width: 100%;
+height: auto;
+margin:20px;
+display: flex;
+}
+
+.texto {
+
+width: 70%;
+height:auto;
+padding: 40px;
+
+}
+
+.texto p {font-size: 16px; font-family: Roboto, sans-serif; text-align: justify;}
+
+.video {
+
+width: 30%;
+justify-content: center;
+align-items: center;
+height:auto;
+
+}
+
+
+
+
+
+/*ANTIGUO BORRAR
+ANTIGUO BORRARANTIGUO BORRARANTIGUO BORRAR
+
+ANTIGUO BORRARANTIGUO BORRARANTIGUO BORRAR
+ANTIGUO BORRAR
+ANTIGUO BORRAR
+ANTIGUO BORRAR
+ANTIGUO BORRAR
+ANTIGUO BORRAR
+ANTIGUO BORRAR
+ANTIGUO BORRAR
+*/
+
+
+
+
+
+
+
+.bloque1p {
+
+width: 100vw;
+margin-top: 65px;
+height: auto;
+background-image: url("images/fondored.png");
+background-position: fixed;
+background-size: cover;
+padding-top:0px;
+position: absolute;
+text-align: center;
+justify-content: space-around;
+display: flex;
+
+}
+
+.bloque1p .derecha {
+
+width:25%;
+color:white;
+height: auto;
+position: relative;
+display: flex;	
+align-items: center;
+justify-content: center;
+
+}
+
+.bloque1p .izquierda {
+
+width:75%;
+color:white;
+height: auto;
+padding-top:20px;
+position: block;
+display: inline-block;
+font-family: 'Roboto', sans-serif;
+font-size: 5em;
+text-align: center;
+align-items: center;
+justify-content: center;
+}
+
+.bloque1p .scroll {
+
+width:8%;
+color:white;
+height: auto;
+position:absolute;
+bottom: 0;
+display: bottom;
+align-items: center;
+justify-content: center;
+}
+
+.bloque1 .izquierda p {font-size: 50px;}
+
+.bloque2p {
+
+width: 100vw;
+height: auto;
+position: absolute;
+display: flex;
+color: var(--gris);
+font-family: 'Roboto', sans-serif;
+font-size: 12pt;
+text-align: center;
+}
+
+.bloque2p .texto {
+
+width:50%;
+
+
+}
+
+.bloque2p .box {
+width:50%;
+background-color: ;
+
+
+
+}
+
+
+/* PREVENIR */
+
+.bloque1 {
+
+width: 100%;
+padding-top: 30px;
+
+}
+
+.bloque2 {
+
+width: 100%;
+
+
+}
+
+
+
+/*BLOQUES*/
+
+.bloque{
+
+width: 100%;
+}
+
+
+.bloque .texto {
+width: 100%;
+padding:10px;
+height: auto;
+padding: 30px;
+color: var(--gris);
+font-family: 'Roboto', sans-serif;
+font-size: 15pt;
+text-align: center;
+
+}
+
+
+
+.bloque-txt {
+
+width: 100%;
+padding:10px;
+height: auto;
+padding: 30px;
+color: var(--gris);
+font-family: 'Roboto', sans-serif;
+font-size: 25pt;
+text-align: center;
+
+}
+
+.bloque-niveles {
+
+width: 100%;
+height: auto;
+background-image: url("images/boceto-5.png");
+background-position: center;
+background-size: cover;
+padding-top: 40px;
+padding-left: 10px;
+color: var(--gris);
+font-family: 'Roboto', sans-serif;
+font-size: 25pt;
+text-align: center;
+justify-content: space-between;
+display: flex;
+}
+
+.bloque-niveles .left {
+
+width:45%;
+height: auto;
+position: relative;
+display: block;
+
+
+}
+
+.bloque-niveles .left p {
+
+color:white;
+font-size: 15pt;
+font-family: Roboto, sans-serif;
+padding-left: 20px;
+
+}
+
+.bloque-niveles .botones {
+background-image: url("images/niveles.png");
+background-size: cover;
+background-position: center;
+padding:30px;  
+width: auto;
+height:auto;
+position: relative;
+display: block;
+}
+
+
+.bloque-niveles .botones button {
+
+background-color: transparent;
+border:0;
+
+
+}
+
+.bloque-niveles .right {
+
+width:55%;
+height: auto;
+position: relative;
+display: block;
+}
+
+
+/*PIE*/
+
+.pie {
+	width: 100%;
+	height: 40px;
+	background-color: var(--azul);
+	color: white;
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	vertical-align: center;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.iess{
+
+	color: white;
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	vertical-align: center;
+	font-family: 'Roboto', sans-serif;
+	transition: .5s;
+
+}
+
+
+.enlace{
+	text-decoration: none;
+	color: white;
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	vertical-align: center;
+	font-family: 'Roboto', sans-serif;
+	transition: .5s;
+}
+
+ .enlace:hover {
+text-decoration: none;
+color:#c6c6c6;
+letter-spacing: 2px;
+ }

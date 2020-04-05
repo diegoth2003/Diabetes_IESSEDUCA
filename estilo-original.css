@@ -1,0 +1,189 @@
+/* Generales */
+
+* {
+
+margin:0;
+padding: 0;
+box-sizing: border-box; 
+}
+
+:root {
+--celeste:#009fe5;
+--azul:#0073a5;
+--gris:#353535;
+}
+
+
+/* Encabezado */
+.encabezado {
+	width: 100%;
+	height: 65px;
+	background-color: var(--azul);
+	position: fixed;
+	z-index: 99;
+}
+
+
+.logo {
+width: 15%;
+margin:5px;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: .5s;
+
+}
+
+.logo:hover{background-color: var(--gris);}
+
+.barra {
+
+	width: 100%;
+	height: 10px;
+	background-color: var(--celeste);
+	position: absolute;
+	display: flex;
+
+}
+
+
+/*BLOQUES*/
+
+.bloque{
+
+width: 100%;
+
+}
+
+.bloque1 {
+
+width: 100%;
+padding-top: 50px;
+
+}
+
+.bloque-txt {
+
+width: 100%;
+padding:10px;
+height: auto;
+padding: 30px;
+color: var(--gris);
+font-family: 'Roboto', sans-serif;
+font-size: 25pt;
+text-align: center;
+
+}
+
+.bloque-niveles {
+
+width: 100%;
+height: auto;
+background-image: url("images/boceto-5.png");
+background-position: center;
+background-size: cover;
+padding-top: 40px;
+padding-left: 10px;
+color: var(--gris);
+font-family: 'Roboto', sans-serif;
+font-size: 25pt;
+text-align: center;
+justify-content: space-between;
+display: flex;
+}
+
+.bloque-niveles .left {
+
+width:45%;
+height: auto;
+position: relative;
+display: block;
+
+
+}
+
+.bloque-niveles .left p {
+
+color:white;
+font-size: 15pt;
+font-family: Roboto, sans-serif;
+padding-left: 20px;
+
+}
+
+.bloque-niveles .botones {
+background-image: url("images/niveles.png");
+background-size: cover;
+background-position: center;
+padding:30px;  
+width: auto;
+height:auto;
+position: relative;
+display: block;
+}
+
+
+.bloque-niveles .botones button {
+
+background-color: transparent;
+border:0;
+
+
+}
+
+.bloque-niveles .right {
+
+width:55%;
+height: auto;
+position: relative;
+display: block;
+}
+
+
+/*PIE*/
+
+.pie {
+	width: 100%;
+	height: 40px;
+	background-color: var(--azul);
+	color: white;
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	vertical-align: center;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.iess{
+
+	color: white;
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	vertical-align: center;
+	font-family: 'Roboto', sans-serif;
+	transition: .5s;
+
+}
+
+
+.enlace{
+	text-decoration: none;
+	color: white;
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	vertical-align: center;
+	font-family: 'Roboto', sans-serif;
+	transition: .5s;
+}
+
+ .enlace:hover {
+text-decoration: none;
+color:#c6c6c6;
+letter-spacing: 2px;
+ }

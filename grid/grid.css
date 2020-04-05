@@ -1,0 +1,31 @@
+/*SISTEMA DE GRIDS*/
+
+
+body { margin: 0px; padding: 0; }
+
+.grid-cont{ 
+	background-color: white; 
+	max-width: 1080px;
+	margin: auto;
+}
+
+
+.row {display: flex;}
+
+.col-1 { width: 12.5%; background-color: #dedede; text-align: center; padding: 10px;}
+.col-2 { width: 25%;  background-color: #fabbff; text-align: center; padding: 10px; }
+.col-3 { width: 37.5%; background-color: #d7bdff; text-align: center; padding: 10px; }
+.col-4 { width: 50%; background-color: #dedede; text-align: center; padding: 10px; }
+.col-5 { width: 62.5%; background-color: #fabbff; text-align: center; padding: 10px;}
+.col-6 { width: 75%; background-color: #d7bdff; text-align: center; padding: 10px;}
+.col-7 { width: 87.5%; background-color: #bdffc0; text-align: center; padding: 10px;}
+.col-8 { width: 100%; background-color: #fff9bd; text-align: center; padding: 10px;}
+
+@media (max-width: 900px) 
+{
+
+.row {display: inherit;}
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8 { width: 100%; }   
+
+}
+
